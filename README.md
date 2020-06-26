@@ -6,9 +6,9 @@ A JSON REST API using Spring and IntelliJ to power a simple note-taking applicat
 ## Requirements
 
 **For Deployement: **
-IntelliJ, Maven'
-
-**For Testing*: *
+IntelliJ, Maven'  
+   
+**For Testing:**  
 curl or Postman(recommended for windows)
 
 ## Setup
