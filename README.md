@@ -11,7 +11,7 @@ A JSON REST API using Spring and IntelliJ to power a simple note-taking applicat
 
 ## Setup
 
-First download or clone the repositiory and unzip the directory into a folder. Next install [IntelliJ](https://www.jetbrains.com/idea/download/) and your os specific version [maven](https://maven.apache.org/download.cgi). You will need to make sure maven has been added to your variable path. Specific instructions are available [here](https://www.baeldung.com/install-maven-on-windows-linux-mac#:~:text=Adding%20Maven%20to%20the%20Environment,run%20the%20Maven's%20command%20everywhere.)
+First download or clone the repositiory and unzip the directory into a folder. Next install [IntelliJ](https://www.jetbrains.com/idea/download/) and your os specific version [maven](https://maven.apache.org/download.cgi). You will need to make sure maven has been added to your variable path. OS specific path instructions are available [here](https://www.baeldung.com/install-maven-on-windows-linux-mac#:~:text=Adding%20Maven%20to%20the%20Environment,run%20the%20Maven's%20command%20everywhere.)
 
 Once  IntelliJ ,Maven and variable path have been seen set. You should be ready to rock and roll! Go ahead and start IntelliJ. Go to File->Open and select the "com.restApi" directory in the folder you cloned and unzipped. Intellji will begin collecting the missing dependencies and make some configurations from the files provided. Once that is finished you can either select run from the top toolbar or right click on 'NoteApplication' in the project explorer and click <run>. 
   
