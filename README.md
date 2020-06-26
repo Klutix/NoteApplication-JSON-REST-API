@@ -5,7 +5,7 @@ A JSON REST API using Spring and IntelliJ to power a simple note-taking applicat
 
 ## Requirements
 
-**For Deployement:** IntelliJ, Maven'  
+**For Deployement:** IntelliJ, Maven  
    
 **For Testing:** curl or Postman(recommended for windows)
 
@@ -70,4 +70,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/MIT/)
+[MIT](https://github.com/Klutix/NoteApplication-JSON-REST-API/blob/master/LICENSE)
