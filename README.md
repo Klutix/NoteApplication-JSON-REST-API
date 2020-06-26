@@ -3,7 +3,8 @@ A simple JSON REST API to power a note-taking application.
 
 This api support GET, POST, PUT, and DELETE
 
-![Instagram Like-bot](https://github.com/Klutix/Images/blob/master/instagram%20like%20bot.png)
+![JsonRestAPI](https://github.com/Klutix/Images/blob/master/RESTJSON/running.png)
+
 
 ## Requirements
 
