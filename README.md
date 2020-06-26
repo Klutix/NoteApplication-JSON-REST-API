@@ -23,7 +23,7 @@ Once  IntelliJ ,Maven and variable path have been seen set. You should be ready 
  To test the API you need to be able to run curl commands against the server. OS specific instructions to install curl can be found [here](https://help.ubidots.com/en/articles/2165289-learn-how-to-install-run-curl-on-windows-macosx-linux). *If you runnning on windows I recommend using [Postman](https://www.postman.com/downloads/) instead.*
  
  **END POINTS AND USE**
- ================================================================
+=================================================================
  <pre>
  *POST* - /api/notes                *adds and entry
                                     ~input a json note value 
@@ -44,7 +44,7 @@ Once  IntelliJ ,Maven and variable path have been seen set. You should be ready 
 --data-raw '{"body":"got milk"}
          
     
- =================================================================        
+=================================================================        
            
  *PUT*   /api/notes{id}            *replaces entry at id with new note value  
                                     ~input a json note value  
@@ -55,15 +55,15 @@ Once  IntelliJ ,Maven and variable path have been seen set. You should be ready 
 --data-raw '{"body":"got butter"}
                                     
                                     
-  =================================================================
+=================================================================
    
- *DEL*   /api/notes/{id}           *deletes entry at id  
+ *DELETE*   /api/notes/{id}           *deletes entry at id  
  
  curl --location --request DELETE 'localhost:8080/api/notes/1' \
 --header 'Content-Type: application/json' \
 --data-raw '{"body":"got butter"}
 
-===================================================================
+=================================================================
  </pre>
  
  
