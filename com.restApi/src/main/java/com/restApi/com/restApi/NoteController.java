@@ -35,7 +35,6 @@ class NoteController {
 
     @PutMapping("/api/notes/{id}")
     Note replaceNote(@RequestBody Note newNote, @PathVariable Long id) {
-
         return repository.findById(id)
                 .map(note -> {
                     note.setName(newNote.getBody());
