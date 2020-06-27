@@ -19,6 +19,7 @@ Go ahead and start IntelliJ.
 Go to File->Open and select the "com.restApi" directory in the folder you cloned and unzipped.  
 
 Intellji will begin collecting the missing dependencies and make some configurations from the files provided.  
+
 Once that is finished you can either select run from the top toolbar or right click on 'NoteApplication' in the project explorer and click <run>. 
   
 You will see some feedback in the IntelliJ run console. If if there are no errors shown at the bottom then the REST-API is up and running on the server.
